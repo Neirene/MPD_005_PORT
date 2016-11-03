@@ -1,0 +1,37 @@
+﻿/*
+(C) 2016 IBERMATICA S.A - MJ/NURIA
+SASS Stylesheet with the main values used across the whole HERMES site, formulas and globals are defined below.
+Target Browsers: IE10+, EDGE, Chrome and Firefox.
+Rev. 1.5
+*/
+
+/* Fonts ---------------------- */
+@import "fonts.scss";
+
+/* Globals -------------------- */
+
+$brand-color: rgb(247, 152, 43);
+$sub-colorA: rgb(56, 56, 56);
+$sub-colorB: rgb(227, 227, 227);
+$font-colorA: rgb(255, 255, 255);
+$font-colorB: rgb(76, 76, 76);
+
+
+/* Mixings ---------------------*/
+
+@mixin transitions($val1,$val2,$val3) { -webkit-transition: $val1 $val2 $val3; -moz-transition: $val1 $val2 $val3; -o-transition: $val1 $val2 $val3; transition: $val1 $val2 $val3; }
+
+
+/* Styles ---------------------*/
+
+.main-title { width:100%; }
+.main-title-logo img{margin-left:auto;margin-right:auto;padding-left:0px;}
+.main-contents {width:100%;}
+.login-title {text-align:center;margin-left:auto;margin-right:auto;}
+.site-forms {float:left;width:100%;margin-left:auto;margin-right:auto}
+.site-forms fieldset{ border:none}
+.site-forms p {font-size:0.8em;text-align:center;}
+.site-forms p label {font-size:1.5em;display:block;font-weight:bold;padding-bottom:0.29em}
+.site-forms p input {display:inline-block; margin-left:auto;margin-right:auto;font-size:1.6em;padding:0.23em;border:2px solid $sub-colorA}
+.site-forms p button {background-color:darken($brand-color,5%);border:2px solid $brand-color;font-weight:bold;font-size:1.2em;padding:0.53em;padding-left:0.8em;padding-right:0.8em}
+.site-forms p button:hover {border:2px solid $sub-colorA;}

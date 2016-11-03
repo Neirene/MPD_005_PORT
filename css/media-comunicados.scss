@@ -1,0 +1,66 @@
+﻿/*
+(C) 2016 IBERMATICA S.A - MJ/NURIA
+SASS Stylesheet with the main values used across the whole HERMES site, formulas and globals are defined below.
+Target Browsers: IE10+, EDGE, Chrome and Firefox.
+Rev. 1.5
+*/
+
+
+
+/* Globals -------------------- */
+
+$brand-color: rgb(247, 152, 43);
+$sub-colorA: rgb(56, 56, 56);
+$sub-colorB: rgb(227, 227, 227);
+$font-colorA: rgb(255, 255, 255);
+$font-colorB: rgb(76, 76, 76);
+
+
+/* Mixings ---------------------*/
+
+@mixin transitions($val1,$val2,$val3) { -webkit-transition: $val1 $val2 $val3; -moz-transition: $val1 $val2 $val3; -o-transition: $val1 $val2 $val3; transition: $val1 $val2 $val3; }
+
+/* Media Queries ---------------*/
+
+$mq37: 37.5em;
+$mq48: 48em;
+$mq60: 60em;
+$mq64: 64em;
+$mq80: 80em;
+$mq90: 90em;
+$mq105: 105em;
+$mq4K: 1921px;
+
+/* Styles ---------------------*/
+
+
+@media all and (min-width:37.5em) {
+    .wrapper { background-color: white; }
+    .main-contents-games {width: 46.15%;}
+}
+
+@media all and (min-width:48em) {
+    .wrapper { background-color: white; }
+}
+
+@media all and (min-width:60em) {
+    .wrapper { background-color: white; }
+}
+
+@media all and (min-width: 64em) {
+
+    .main-announcements { background-color: $sub-colorB; margin-top: 0.7em; margin-left: 0.5em; margin-right: 0.5em; padding: 0.7em; cursor:pointer; overflow:hidden; @include transitions(all, 0.4s, ease);  }
+    .main-announcements h2 { font-size: 1.495em; color: $sub-colorA; font-weight: bold; padding: 0; margin: 0; }
+    .main-announcements p { color: $sub-colorA; font-size: 1em; padding: 0; margin: 0; }
+    .main-announcements span { font-weight: bold; display:block }
+    .main-announcements .extended-info {opacity:0;height:0px; margin-top:0.8em;  @include transitions(all, 0.4s, ease); }
+    .main-announcements a {color:$sub-colorA;font-weight:bold;margin-top:0.23em;display:block;text-decoration:none;}
+    .main-announcements a:hover {text-decoration:underline;}
+    .main-announcements:hover .extended-info {opacity:1;height:100px;}
+}
+
+@media all and (min-width: 80em) {
+    .wrapper { background-color: white; width: 80%; margin-left: auto; margin-right: auto; box-shadow: 0px 0px 10px 0px rgba(76, 76, 76, 0.3); }
+
+    body { background-color: rgba(76, 76, 76, 0.1); }
+}

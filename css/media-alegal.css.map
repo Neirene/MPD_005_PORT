@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;;EAKE;AAIF,kCAAkC;AASlC,kCAAkC;AAIlC,kCAAkC;AAYlC,iCAAiC;AAejC,gCAAgC;EAC5B,yBAA0B;IAAE,KAAK,EAAE,GAAG;IAAE,WAAW,EAAE,IAAI;IAAE,YAAY,EAAE,IAAI;;EAC7E,2BAA4B;IAAE,UAAU,EAAE,OAAO;IAAE,KAAK,EAAE,OAAgB",
+"sources": ["media-alegal.scss"],
+"names": [],
+"file": "media-alegal.css"
+}

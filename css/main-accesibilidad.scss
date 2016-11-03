@@ -1,0 +1,34 @@
+﻿/*
+(C) 2016 IBERMATICA S.A - MJ/NURIA
+SASS Stylesheet with the main values used across the whole HERMES site, formulas and globals are defined below.
+Target Browsers: IE10+, EDGE, Chrome and Firefox.
+Rev. 1.5
+*/
+
+
+/* Fonts ---------------------- */
+@import "fonts.scss";
+
+
+/* Globals -------------------- */
+
+$brand-color: rgb(247, 152, 43);
+$sub-colorA: rgb(56, 56, 56);
+$sub-colorB: rgb(227, 227, 227);
+$font-colorA: rgb(255, 255, 255);
+$font-colorB: rgb(76, 76, 76);
+
+
+
+/* Mixings ---------------------*/
+
+@mixin transitions($val1,$val2,$val3) { -webkit-transition: $val1 $val2 $val3; -moz-transition: $val1 $val2 $val3; -o-transition: $val1 $val2 $val3; transition: $val1 $val2 $val3; }
+
+
+/* Styles ---------------------*/
+
+.main-announcements-accesibility { width: 90%; margin-left: auto; margin-right: auto; }
+.main-announcements-accesibility p { text-align: justify; color: rgba(56,56,56,1); }
+.main-announcements-accesibility h3 { text-align: justify; }
+.main-announcements-accesibility img { /* float: left; */ width: 100%; padding-left: 0.1em; }
+.main-announcements-accesibility ul { text-align: justify; color: rgba(56,56,56,1); }

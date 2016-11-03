@@ -1,0 +1,205 @@
+/*
+(C) 2016 IBERMATICA S.A - MJ/NURIA
+SASS Stylesheet with the main values used across the whole HERMES site, formulas and globals are defined below.
+Target Browsers: IE10+, EDGE, Chrome and Firefox.
+Rev. 1.5
+*/
+/* Globals -------------------- */
+/* Mixings ---------------------*/
+/* Media Queries ---------------*/
+/* Styles ---------------------*/
+.main-contents-games-extra {
+  border: 3px solid #f7982b;
+  width: 95%;
+  overflow: hidden;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+.main-contents-games-extra:hover {
+  border: 3px solid #383838; }
+
+.main-contents-games-extra img {
+  width: auto;
+  height: 12em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-contents-games-extra-info {
+  width: auto;
+  display: block;
+  vertical-align: top;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto; }
+
+.main-contents-games-extra-info h3 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding: 0.8em; }
+
+.main-contents-games-extra-info p {
+  margin: 0px;
+  padding: 0px;
+  color: #4c4c4c;
+  font-size: 1.125em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center; }
+
+.main-contents-games-extra-info span {
+  font-weight: bold; }
+
+.main-contents-games-extra-info a {
+  color: #66789b;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center; }
+
+.main-contents-games-results {
+  border: 3px solid #e3e3e3;
+  width: 92%;
+  overflow: hidden;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+.main-contents-games-results:hover {
+  border: 3px solid #383838; }
+
+.main-contents-games-results-pic {
+  width: 100%;
+  height: auto; }
+
+.main-contents-games-results div img {
+  width: auto;
+  height: 9em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-contents-games-results-info {
+  width: 100%;
+  height: auto;
+  text-align: center; }
+
+.main-contents-games-results-info p {
+  margin: 0px;
+  padding: 0px;
+  color: #4c4c4c;
+  font-size: 1.125em;
+  padding-bottom: 0.5em; }
+
+.main-contents-games-results-info span {
+  font-weight: bold; }
+
+.main-contents-games-results-info a {
+  color: #66789b;
+  text-decoration: underline;
+  font-weight: bold;
+  vertical-align: bottom; }
+
+.main-contents-results {
+  width: 20em;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.2em; }
+
+.main-contents-results ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-contents-results ul li {
+  margin: 0.5em;
+  padding: 0px;
+  padding: 0.5em;
+  font-size: 1em;
+  display: inline-block;
+  float: left;
+  border-radius: 150px;
+  border: 2px solid #e3e3e3; }
+
+.main-contents-results ul li:nth-last-child(-n+2) {
+  border-color: #f38c00; }
+
+.main-contents-results ul li:hover {
+  border-color: #f38c00; }
+
+.box-disabled {
+  display: none; }
+
+.open-box {
+  height: 28em; }
+
+.small-box {
+  height: 16em;
+  overflow: hidden; }
+
+.invisible {
+  visibility: hidden; }
+
+.border-color {
+  border-color: red; }
+
+.no-border {
+  border-color: #e3e3e3; }
+
+.main-contents-more-results {
+  width: 16.5em;
+  margin-right: auto;
+  margin-left: auto; }
+
+.main-contents-more-results h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left: auto; }
+
+.main-contents-more-results ul {
+  margin: 0px;
+  padding: 0px;
+  display: table; }
+
+.main-contents-more-results ul li {
+  display: table-row;
+  float: left; }
+
+.main-contents-more-results ul li div {
+  display: table-cell; }
+
+.main-contents-more-results ul li div:nth-of-type(1n+1) {
+  padding-right: 1em; }
+
+.main-contents-more-results ul li div:nth-of-type(2n+2) {
+  padding-right: 0.5em !important; }
+
+.main-contents-more-results ul li div:nth-of-type(1n+1) {
+  padding-left: 0.5em !important; }
+
+.main-contents-more-results ul li div span {
+  display: block;
+  color: #383838;
+  font-weight: bold;
+  font-size: 0.8em; }
+
+/*# sourceMappingURL=main-resultados.css.map */

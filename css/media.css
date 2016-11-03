@@ -1,0 +1,460 @@
+/*
+(C) 2016 IBERMATICA S.A - MJ/NURIA
+SASS Stylesheet with the main values used across the whole HERMES site, formulas and globals are defined below.
+Target Browsers: IE10+, EDGE, Chrome and Firefox.
+Rev. 1.5
+*/
+/* Globals -------------------- */
+/* Mixings ---------------------*/
+/* Media Queries ---------------*/
+/* Styles ---------------------*/
+@media all and (min-width: 37.5em) {
+  .wrapper {
+    background-color: white; }
+
+  .main-contents-games {
+    width: 46.15%; } }
+@media all and (min-width: 48em) {
+  .wrapper {
+    background-color: white; } }
+@media all and (min-width: 60em) {
+  .wrapper {
+    background-color: white; } }
+@media all and (min-width: 64em) {
+  .wrapper {
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .header-area {
+    border-top: 10px solid #f7982b;
+    width: 100%;
+    padding-top: 0.5em;
+    float: left; }
+
+  .main-title {
+    width: 40%;
+    height: 55px;
+    padding: 0;
+    margin: 0; }
+
+  .mobile-nav-icon {
+    display: none; }
+
+  .main-title-logo {
+    width: auto;
+    height: auto;
+    padding-left: 1em; }
+
+  .main-title img {
+    display: block;
+    padding-left: 0.1em;
+    width: 20em;
+    margin-bottom: 0.6em; }
+
+  .mobile-nav {
+    display: block;
+    position: relative;
+    float: left;
+    overflow: visible;
+    padding-bottom: 2.1em;
+    background-color: white;
+    background-color: #383838;
+    box-shadow: none; }
+
+  .mobile-nav-close-bt {
+    display: none; }
+
+  .user-info-container {
+    background-color: transparent !important;
+    width: 25em;
+    height: 50px;
+    top: -3.5em;
+    position: absolute;
+    right: 15em;
+    text-align: center;
+    padding: 0;
+    margin: 0; }
+
+  .user-profile-pic {
+    display: none; }
+
+  .user-information-fields {
+    padding-left: 0em;
+    line-height: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+  .user-info-container p {
+    color: #383838;
+    font-size: 1.125em;
+    margin-top: 0.874em; }
+
+  .user-info-container span {
+    color: #383838;
+    display: inline; }
+
+  .user-info-container span:before {
+    content: " | ";
+    color: #f7982b; }
+
+  .settings-menu {
+    position: absolute;
+    overflow: visible;
+    width: 15em;
+    height: 50px;
+    right: 0;
+    top: -3.5em;
+    border-top: none;
+    padding: 0;
+    margin: 0; }
+
+  .settings-menu-sesion {
+    border: 2px solid #f38c00;
+    width: 9.5em;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: white;
+    bottom: 0;
+    height: auto;
+    cursor: pointer; }
+
+  .settings-menu-sesion img {
+    display: none;
+    padding: 0.2em;
+    vertical-align: middle; }
+
+  .settings-menu-sesion p {
+    display: initial;
+    color: #383838;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px; }
+
+  .settings-menu-sesion p:before {
+    font-family: "Font Awesome";
+    content: "\f011";
+    color: #383838;
+    font-size: 1em;
+    cursor: pointer;
+    padding-right: 0.559em; }
+
+  .settings-menu ul li {
+    display: none; }
+
+  .main-menu-bar {
+    float: left;
+    position: relative;
+    background-color: #383838;
+    width: 100%;
+    padding-top: 2px;
+    height: auto;
+    text-align: center;
+    overflow: visible;
+    cursor: pointer; }
+
+  .main-menu-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: circle; }
+
+  .main-menu-bar ul li {
+    position: relative;
+    display: inline-block;
+    background-color: #383838;
+    color: white;
+    font-size: 1.4em;
+    width: inherit;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    border-bottom: 5px solid #383838; }
+
+  .main-menu-bar ul li a {
+    position: relative;
+    display: inline-block;
+    background-color: #383838;
+    color: white;
+    font-size: 0.80em;
+    width: inherit;
+    padding: 0.2em;
+    padding-top: 0.35em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    border-bottom: 0px solid white; }
+
+  .main-menu-bar ul li:hover {
+    border-bottom: 5px solid #f7982b; }
+
+  .main-menu-bar ul li:hover > ul {
+    display: block; }
+
+  .main-menu-bar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    padding: 0;
+    border-top: 5px solid #f38c00;
+    border-bottom: 5px solid #f38c00;
+    z-index: 9999;
+    list-style-type: disc; }
+
+  .main-menu-bar ul ul li {
+    font-size: 0.8em;
+    width: 200px;
+    background-color: #383838;
+    color: white;
+    padding: 0.4em; }
+
+  .main-menu-bar ul ul li a {
+    padding: 0em;
+    font-size: 0.8em;
+    background-color: #383838;
+    color: white; }
+
+  .main-menu-bar ul ul li:hover {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #383838; }
+
+  .main-menu-bar ul ul li:hover a {
+    color: #383838;
+    background-color: white; }
+
+  .ext-menu:after {
+    font-family: "Font Awesome";
+    content: "\f107";
+    color: white;
+    cursor: pointer; }
+
+  .ext-menu > a {
+    font-size: 0.8em !important;
+    padding: 0;
+    margin: 0;
+    color: white !important; }
+
+  .main-contents {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 100%;
+    margin-top: 0.62em; }
+
+  .main-announcements {
+    background-color: #e3e3e3;
+    margin-top: 0.7em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.7em;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+
+  .main-announcements h2 {
+    font-size: 1.495em;
+    color: #383838;
+    font-weight: bold;
+    padding: 0;
+    margin: 0; }
+
+  .main-announcements p {
+    color: #383838;
+    font-size: 1em;
+    padding: 0;
+    margin: 0; }
+
+  .main-announcements span {
+    font-weight: bold;
+    display: block; }
+
+  .main-announcements .extended-info {
+    opacity: 0;
+    height: 0px;
+    margin-top: 0.8em;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+
+  .main-announcements a {
+    color: #383838;
+    font-weight: bold;
+    margin-top: 0.23em;
+    display: block;
+    text-decoration: none; }
+
+  .main-announcements a:hover {
+    text-decoration: underline; }
+
+  .main-announcements:hover .extended-info {
+    opacity: 1;
+    height: 100px; }
+
+  .contents-header-area {
+    margin-top: 0.235em;
+    border-bottom: 2px solid #e3e3e3; }
+
+  .contents-header-area ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: square; }
+
+  .contents-header-area ul li {
+    border-right: 2px solid #383838;
+    display: inline-block;
+    margin: 0.50em;
+    padding-right: 0.80em; }
+
+  .contents-header-area ul li:last-child {
+    border-right: none;
+    font-weight: bold;
+    margin-left: -0.098em; }
+
+  .contents-header-area ul li a {
+    color: #383838;
+    text-decoration: none; }
+
+  .contents-header-area ul li a:hover {
+    text-decoration: underline; }
+
+  .contents-header-area img {
+    width: auto;
+    height: 7.25em;
+    display: inline;
+    padding: 0.25em; }
+
+  .contents-header-area h2 {
+    padding: 0.45em;
+    padding-top: 0em;
+    margin: 0px;
+    text-transform: uppercase; }
+
+  .main-contents-games {
+    border: 3px solid #e3e3e3;
+    margin: 0.5em;
+    width: 31.11%;
+    height: 20em;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    position: relative; }
+
+  .main-contents-games:hover .main-contents-games-info {
+    bottom: 0px; }
+
+  .main-contents-games img {
+    width: auto;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em; }
+
+  .main-contents-games-info {
+    position: absolute;
+    bottom: -180px;
+    left: 0px;
+    background-color: #383838;
+    width: 100%;
+    height: 5.3em; }
+
+  .main-contents-games-info h2 {
+    font-size: 1.125em;
+    color: #f7982b;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    text-align: left; }
+
+  .main-contents-games-info p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 0.86em;
+    font-weight: bold;
+    padding-bottom: 0.5em; }
+
+  .main-contents-games-info h3 {
+    font-weight: bold;
+    color: white;
+    font-size: 1.250em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.2em; }
+
+  .footer-area {
+    background-color: #383838;
+    color: white;
+    float: left;
+    width: 100%;
+    padding-top: 1.4em; }
+
+  .footer-information-area {
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 1.5em; }
+
+  .footer-information-area ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: circle; }
+
+  .footer-information-area ul li {
+    display: inline-block;
+    padding-right: 1em;
+    margin: 0.5em;
+    font-size: 0.9em;
+    border-right: 2px solid white; }
+
+  .footer-information-area ul li:last-child {
+    border-right: none; }
+
+  .footer-logo {
+    width: 35%;
+    float: right;
+    text-align: center; }
+
+  .footer-logo div {
+    width: 100%; }
+
+  .footer-logo div img {
+    width: auto; }
+
+  .footer-copyright p {
+    width: 100%;
+    font-size: 0.8em;
+    display: block; }
+
+  .box-disabled {
+    display: none; } }
+@media all and (min-width: 80em) {
+  .wrapper {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px 0px rgba(76, 76, 76, 0.3); }
+
+  body {
+    background-color: rgba(76, 76, 76, 0.1); } }
+
+/*# sourceMappingURL=media.css.map */

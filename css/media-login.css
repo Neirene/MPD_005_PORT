@@ -1,0 +1,28 @@
+/*
+(C) 2016 IBERMATICA S.A - MJ/NURIA
+SASS Stylesheet with the main values used across the whole HERMES site, formulas and globals are defined below.
+Target Browsers: IE10+, EDGE, Chrome and Firefox.
+Rev. 1.5
+*/
+/* Globals -------------------- */
+/* Mixings ---------------------*/
+/* Media Queries ---------------*/
+/* Styles ---------------------*/
+@media all and (min-width: 60em) {
+  .main-title {
+    width: initial; }
+
+  .main-title-logo img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px; }
+
+  .site-forms {
+    float: none;
+    margin-bottom: 3em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #383838; } }
+
+/*# sourceMappingURL=media-login.css.map */
